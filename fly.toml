@@ -1,5 +1,8 @@
-app = "fly-log-shipper-example"
+app = "logflare-logs-shipper""
 
 [metrics]
   port = 9598
   path = "/metrics"
+
+[env]
+  ORG = "personal"
